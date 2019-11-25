@@ -1,7 +1,11 @@
 <?php
 
 namespace App\Providers;
+<<<<<<< Updated upstream
 use Illuminate\Support\Facades\Schema;
+=======
+
+>>>>>>> Stashed changes
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +17,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
+<<<<<<< Updated upstream
         Schema::defaultStringLength(191);
+=======
+        //
+>>>>>>> Stashed changes
     }
 
     /**

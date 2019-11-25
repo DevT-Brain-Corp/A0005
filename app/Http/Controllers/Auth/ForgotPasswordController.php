@@ -19,6 +19,7 @@ class ForgotPasswordController extends Controller
     */
 
     use SendsPasswordResetEmails;
+<<<<<<< Updated upstream
 
     /**
      * Create a new controller instance.
@@ -29,4 +30,6 @@ class ForgotPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+=======
+>>>>>>> Stashed changes
 }

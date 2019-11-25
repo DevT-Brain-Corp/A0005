@@ -1,5 +1,9 @@
 <?php
 
+<<<<<<< Updated upstream
+=======
+use Monolog\Handler\NullHandler;
+>>>>>>> Stashed changes
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
 
@@ -89,6 +93,14 @@ return [
             'driver' => 'errorlog',
             'level' => 'debug',
         ],
+<<<<<<< Updated upstream
+=======
+
+        'null' => [
+            'driver' => 'monolog',
+            'handler' => NullHandler::class,
+        ],
+>>>>>>> Stashed changes
     ],
 
 ];

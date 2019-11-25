@@ -80,6 +80,10 @@ return [
     */
 
     'failed' => [
+<<<<<<< Updated upstream
+=======
+        'driver' => env('QUEUE_FAILED_DRIVER', 'database'),
+>>>>>>> Stashed changes
         'database' => env('DB_CONNECTION', 'mysql'),
         'table' => 'failed_jobs',
     ],

@@ -2,8 +2,13 @@
 
 namespace App\Providers;
 
+<<<<<<< Updated upstream
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;
+=======
+use Illuminate\Support\Facades\Broadcast;
+use Illuminate\Support\ServiceProvider;
+>>>>>>> Stashed changes
 
 class BroadcastServiceProvider extends ServiceProvider
 {

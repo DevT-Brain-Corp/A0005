@@ -11,5 +11,9 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 
+<<<<<<< Updated upstream
 [*.yml]
+=======
+[*.{yml,yaml}]
+>>>>>>> Stashed changes
 indent_size = 2

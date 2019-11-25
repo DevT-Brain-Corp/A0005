@@ -10,18 +10,31 @@ class ArtikelController extends Controller
 {
     public function index()
     {
+<<<<<<< Updated upstream
         $data = \App\Artikel::All();
         // $data->deskripsi = Str::limit($data->deskripsi, 20, ' (...)');
     	return view('artikel.index', compact('data'));
+=======
+    	$data = \App\Artikel::All();
+    	return view('forum.index', compact('data'));
+>>>>>>> Stashed changes
     }
     public function detail($slug)
     {
     	$data = \App\Artikel::where('slug','=',$slug)->first();
+<<<<<<< Updated upstream
     	return view('artikel.detail',compact('data'));
     }
     public function linkOncreate()
     {
         return view('artikel.create');
+=======
+    	return view('forum.detail',compact('data'));
+    }
+    public function linkOncreate()
+    {
+        return view('forum.create');
+>>>>>>> Stashed changes
     }
     public function store(Request $req)
     {
@@ -52,7 +65,11 @@ class ArtikelController extends Controller
     public function edit($id)
     {
         $data = \App\Artikel::where('id','=',$id)->first();
+<<<<<<< Updated upstream
         return view('artikel.edit', compact('data'));
+=======
+        return view('forum.edit', compact('data'));
+>>>>>>> Stashed changes
     }
     public function update(Request $req)
     {
@@ -100,4 +117,14 @@ class ArtikelController extends Controller
 
         }
     }
+<<<<<<< Updated upstream
+=======
+    public function delete(Request $req)
+    {
+        \App\Artikel::where('id','=',$req->id_artikel)->delete();
+        \App\Komen::where('artikel_id','=',$req->id_artikel)->delete();
+
+        return redirect()->back()->with('sukses','berhasil menghapus artikel');
+    }
+>>>>>>> Stashed changes
 }

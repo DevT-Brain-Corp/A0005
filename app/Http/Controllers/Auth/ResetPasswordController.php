@@ -26,6 +26,7 @@ class ResetPasswordController extends Controller
      * @var string
      */
     protected $redirectTo = '/home';
+<<<<<<< Updated upstream
 
     /**
      * Create a new controller instance.
@@ -36,4 +37,6 @@ class ResetPasswordController extends Controller
     {
         $this->middleware('guest');
     }
+=======
+>>>>>>> Stashed changes
 }

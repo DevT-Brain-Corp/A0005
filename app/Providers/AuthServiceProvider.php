@@ -2,8 +2,13 @@
 
 namespace App\Providers;
 
+<<<<<<< Updated upstream
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+=======
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\Gate;
+>>>>>>> Stashed changes
 
 class AuthServiceProvider extends ServiceProvider
 {

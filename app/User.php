@@ -2,9 +2,15 @@
 
 namespace App;
 
+<<<<<<< Updated upstream
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+=======
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+>>>>>>> Stashed changes
 
 class User extends Authenticatable
 {

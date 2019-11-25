@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 <!DOCTYPE html>
+=======
+<!doctype html>
+>>>>>>> Stashed changes
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
@@ -15,7 +19,11 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<<<<<<< Updated upstream
     @yield('style')
+=======
+
+>>>>>>> Stashed changes
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -39,9 +47,12 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+<<<<<<< Updated upstream
                         <li class="nav-item">
                                     <a class="nav-link" href="{{ url('/artikel') }}">Artikel</a>
                             </li>
+=======
+>>>>>>> Stashed changes
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -52,9 +63,14 @@
                                 </li>
                             @endif
                         @else
+<<<<<<< Updated upstream
                             
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle text-capitalize" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+=======
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+>>>>>>> Stashed changes
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 

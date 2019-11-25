@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @extends('layouts.master')
 
 @section('content')
@@ -480,3 +481,24 @@
 
 </section> <!-- s-content -->
 @endsection
+=======
+@extends('header')
+
+@section('content')
+<body>
+  <div class="page-header clear-filter" filter-color="orange">
+    <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/bglogin.jpg');">
+    </div>
+    <div class="container">
+      <div class="content-center brand">
+        <img class="n-logo" src="./assets/img/heart.png" alt="">
+        <h1 class="h1-seo">SOSMEKES.</h1>
+        <h3>Sosial Media Kesehatan</h3>
+      </div>
+    </div>
+
+
+
+</body>
+@endsection
+>>>>>>> Stashed changes

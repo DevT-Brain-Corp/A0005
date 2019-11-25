@@ -13,10 +13,17 @@ return [
     |
     */
 
+<<<<<<< Updated upstream
     'password' => 'Passwords must be at least eight characters and match the confirmation.',
+=======
+>>>>>>> Stashed changes
     'reset' => 'Your password has been reset!',
     'sent' => 'We have e-mailed your password reset link!',
     'token' => 'This password reset token is invalid.',
     'user' => "We can't find a user with that e-mail address.",
+<<<<<<< Updated upstream
+=======
+    'throttled' => 'Please wait before retrying.',
+>>>>>>> Stashed changes
 
 ];

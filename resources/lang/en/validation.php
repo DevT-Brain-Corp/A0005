@@ -93,6 +93,10 @@ return [
     'not_in' => 'The selected :attribute is invalid.',
     'not_regex' => 'The :attribute format is invalid.',
     'numeric' => 'The :attribute must be a number.',
+<<<<<<< Updated upstream
+=======
+    'password' => 'The password is incorrect.',
+>>>>>>> Stashed changes
     'present' => 'The :attribute field must be present.',
     'regex' => 'The :attribute format is invalid.',
     'required' => 'The :attribute field is required.',

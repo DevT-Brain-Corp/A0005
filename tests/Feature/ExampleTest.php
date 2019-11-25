@@ -2,8 +2,13 @@
 
 namespace Tests\Feature;
 
+<<<<<<< Updated upstream
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+=======
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Tests\TestCase;
+>>>>>>> Stashed changes
 
 class ExampleTest extends TestCase
 {
